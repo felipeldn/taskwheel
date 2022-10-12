@@ -1,25 +1,100 @@
-import logo from './logo.svg';
 import './App.css';
+import React from "react";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+
+  render() {
+    return (
+        <div>
+          <ul className="circle">
+                <li>
+                  <div className="text"
+                       contentEditable={true}
+                       spellCheck={false}>
+                    1
+                  </div>
+                </li>
+              <li>
+                  <div className="text"
+                       contentEditable={true}
+                       spellCheck={false}>
+                      2
+                  </div>
+              </li>
+              <li>
+                  <div className="text"
+                       contentEditable={true}
+                       spellCheck={false}>
+                      3
+                  </div>
+              </li>
+              <li>
+                  <div className="text"
+                       contentEditable={true}
+                       spellCheck={false}>
+                      4
+                  </div>
+              </li>
+              <li>
+                  <div className="text"
+                       contentEditable={true}
+                       spellCheck={false}>
+                      5
+                  </div>
+              </li>
+              <li>
+                  <div className="text"
+                       contentEditable={true}
+                       spellCheck={false}>
+                      6
+                  </div>
+              </li>
+              <li>
+                  <div className="text"
+                       contentEditable={true}
+                       spellCheck={false}>
+                      7
+                  </div>
+              </li>
+              <li>
+                  <div className="text"
+                       contentEditable={true}
+                       spellCheck={false}>
+                      8
+                  </div>
+              </li>
+              <li>
+                  <div className="text"
+                       contentEditable={true}
+                       spellCheck={false}>
+                      9
+                  </div>
+              </li>
+              <li>
+                  <div className="text"
+                       contentEditable={true}
+                       spellCheck={false}>
+                      10
+                  </div>
+              </li>
+              <li>
+                  <div className="text"
+                       contentEditable={true}
+                       spellCheck={false}>
+                      11
+                  </div>
+              </li>
+              <li>
+                  <div className="text"
+                       contentEditable={true}
+                       spellCheck={false}>
+                      12
+                  </div>
+              </li>
+          </ul>
+        </div>
+    );
+  }
 }
 
 export default App;
